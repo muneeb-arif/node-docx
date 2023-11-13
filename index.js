@@ -16,6 +16,10 @@ app.post('/', async (req, res) => {
     return res.json(response)
 });
 
+app.get('/test', (req, res) => {
+  return res.json({'status': 200});
+})
+
 // make the server listen to requests
 app.listen(PORT, () => {
   console.log(`Server running at: http://localhost:${PORT}/`);

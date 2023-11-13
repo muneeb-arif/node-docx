@@ -5,7 +5,7 @@ const doc = require('./generateDocWithUserData')
 const app = express();
 
 // server configuration
-const PORT = 5000;
+const PORT = process.env.PORT || 5000;
 
 app.use(express.json())
 

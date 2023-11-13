@@ -1,0 +1,17 @@
+{
+  "name": "docx",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "docxtemplater": "^3.40.2",
+    "express": "^4.18.2",
+    "fs-extra": "^11.1.1",
+    "pizzip": "^3.1.4"
+  }
+}

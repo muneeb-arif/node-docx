@@ -10,6 +10,6 @@
   "license": "ISC",
   "dependencies": {
     "docxtemplater": "^3.40.2",
-    "pizzip": "^3.1.4"
+    "pizzip": "^3.1.5"
   }
 }
